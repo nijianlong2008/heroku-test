@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/nijianlong2008/heroku-test.git",
   "author": "倪建龙 <nijianlong@ruifucredit.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node ."
+  }
 }
