@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello World444422!'))
+app.get('/', (req, res) => res.send('Hello World!'))
 
-const port = process.env.PORT || 3000
+var port = process.env.PORT || '3000'
 
-module.exports = app;
+app.listen(port, () => console.log('Example app listening on port 3000!'))
