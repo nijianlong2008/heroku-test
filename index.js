@@ -5,4 +5,4 @@ app.get('/', (req, res) => res.send('Hello World444422!'))
 
 const port = process.env.PORT || 3000
 
-app.listen(port, () => console.log('Example app listening on port 3000!'))
+module.exports = app;
